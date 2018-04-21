@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<servlet>
+		<servlet-name>CreateAccount</servlet-name>
+		<servlet-class>servlets.CreateAccountServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlets.LoginPageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>servlets.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ForgotPassword</servlet-name>
+		<servlet-class>servlets.ForgotPasswordServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>servlets.ChangePasswordServlet</servlet-class>
+	</servlet>
+	<servlet>
+
+
+
+		<servlet-name>complexCarbs</servlet-name>
+		<servlet-class>servlets.enterDiet.ComplexCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>fruits</servlet-name>
+		<servlet-class>servlets.enterDiet.FruitsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>healthyFats</servlet-name>
+		<servlet-class>servlets.enterDiet.HealthyFatsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>nonVegProtein</servlet-name>
+		<servlet-class>servlets.enterDiet.NonVegProteinServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>simpleCarbs</servlet-name>
+		<servlet-class>servlets.enterDiet.SimpleCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>vegetables</servlet-name>
+		<servlet-class>servlets.enterDiet.VegetablesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>vegProtein</servlet-name>
+		<servlet-class>servlets.enterDiet.VegProteinServlet</servlet-class>
+	</servlet>
+
+
+
+
+	<servlet>
+		<servlet-name>selectGoal</servlet-name>
+		<servlet-class>servlets.user.SelectGoalServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>changeGoal</servlet-name>
+		<servlet-class>servlets.user.ChangeGoalServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>editProfile</servlet-name>
+		<servlet-class>servlets.user.EditProfile</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>editcomplexCarbs</servlet-name>
+		<servlet-class>servlets.editDiet.ComplexCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>edithealthyFats</servlet-name>
+		<servlet-class>servlets.editDiet.HealthyFatsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>editnonVegProtein</servlet-name>
+		<servlet-class>servlets.editDiet.NonVegProteinServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>editsimpleCarbs</servlet-name>
+		<servlet-class>servlets.editDiet.SimpleCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>editvegProtein</servlet-name>
+		<servlet-class>servlets.editDiet.VegProteinServlet</servlet-class>
+	</servlet>
+
+
+
+	<servlet>
+		<servlet-name>deletecomplexCarbs</servlet-name>
+		<servlet-class>servlets.deleteDiet.ComplexCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletefruits</servlet-name>
+		<servlet-class>servlets.deleteDiet.FruitsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletehealthyFats</servlet-name>
+		<servlet-class>servlets.deleteDiet.HealthyFatsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletenonVegProtein</servlet-name>
+		<servlet-class>servlets.deleteDiet.NonVegProteinServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletesimpleCarbs</servlet-name>
+		<servlet-class>servlets.deleteDiet.SimpleCarbServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deleteVegetables</servlet-name>
+		<servlet-class>servlets.deleteDiet.VegetablesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deletevegProtein</servlet-name>
+		<servlet-class>servlets.deleteDiet.VegProteinServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>addExercise</servlet-name>
+		<servlet-class>servlets.AddExerciseServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>addSupplement</servlet-name>
+		<servlet-class>servlets.AddSupplementServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SelectDiet</servlet-name>
+		<servlet-class>servlets.user.SelectDiet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChangeProbability</servlet-name>
+		<servlet-class>servlets.user.ChangeProbability</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChangeExercise</servlet-name>
+		<servlet-class>servlets.user.ChangeExercise</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteAccount</servlet-name>
+		<servlet-class>servlets.user.DeleteAccount</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>CreateAccount</servlet-name>
+		<url-pattern>/CreateAccount</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/dashboard</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ForgotPassword</servlet-name>
+		<url-pattern>/forgotPassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/changePassword</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>complexCarbs</servlet-name>
+		<url-pattern>/complexCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>fruits</servlet-name>
+		<url-pattern>/fruits</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>healthyFats</servlet-name>
+		<url-pattern>/healthyFats</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>nonVegProtein</servlet-name>
+		<url-pattern>/nonVegProtein</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>simpleCarbs</servlet-name>
+		<url-pattern>/simpleCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>vegetables</servlet-name>
+		<url-pattern>/vegetables</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>vegProtein</servlet-name>
+		<url-pattern>/vegProtein</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>selectGoal</servlet-name>
+		<url-pattern>/selectGoal</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>changeGoal</servlet-name>
+		<url-pattern>/changeGoal</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>editProfile</servlet-name>
+		<url-pattern>/editProfile</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>editcomplexCarbs</servlet-name>
+		<url-pattern>/editcomplexCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>edithealthyFats</servlet-name>
+		<url-pattern>/edithealthyFats</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>editnonVegProtein</servlet-name>
+		<url-pattern>/editnonVegProtein</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>editsimpleCarbs</servlet-name>
+		<url-pattern>/editsimpleCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>editvegProtein</servlet-name>
+		<url-pattern>/editvegProtein</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>deletecomplexCarbs</servlet-name>
+		<url-pattern>/deletecomplexCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletefruits</servlet-name>
+		<url-pattern>/deletefruits</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletehealthyFats</servlet-name>
+		<url-pattern>/deletehealthyFats</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletenonVegProtein</servlet-name>
+		<url-pattern>/deletenonVegProtein</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletesimpleCarbs</servlet-name>
+		<url-pattern>/deletesimpleCarbs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deleteVegetables</servlet-name>
+		<url-pattern>/deleteVegetables</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deletevegProtein</servlet-name>
+		<url-pattern>/deletevegProtein</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>addExercise</servlet-name>
+		<url-pattern>/addExercise</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>addSupplement</servlet-name>
+		<url-pattern>/addSupplement</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SelectDiet</servlet-name>
+		<url-pattern>/selectDiet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangeProbability</servlet-name>
+		<url-pattern>/changeProb</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangeExercise</servlet-name>
+		<url-pattern>/changeExercise</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteAccount</servlet-name>
+		<url-pattern>/deleteAccount</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<filter>
+		<filter-name>ProfileFilter</filter-name>
+		<filter-class>filter.ProfileFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ProfileFilter</filter-name>
+		<url-pattern>/siteStuffs/userPages/Profile.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>changeGoalFilter</filter-name>
+		<filter-class>filter.ChangeGoalFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>changeGoalFilter</filter-name>
+		<url-pattern>/siteStuffs/userPages/changeGoal.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>dietFilter</filter-name>
+		<filter-class>filter.DietFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>dietFilter</filter-name>
+		<url-pattern>/siteStuffs/userPages/diet.jsp</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>exerciseFilter</filter-name>
+		<filter-class>filter.ExerciseFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>exerciseFilter</filter-name>
+		<url-pattern>/siteStuffs/userPages/exercise.jsp</url-pattern>
+	</filter-mapping>
+
+
+
+
+
+	<error-page>
+		<error-code>400</error-code>
+		<location>/WEB-INF/error/errorCode400.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>401</error-code>
+		<location>/WEB-INF/error/errorCode401.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>403</error-code>
+		<location>/WEB-INF/error/errorCode402.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/error/errorCode403.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/error/errorCode500.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type> 
+		<location>/WEB-INF/error/exception.jsp</location>
+	</error-page>
+
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+</web-app>
