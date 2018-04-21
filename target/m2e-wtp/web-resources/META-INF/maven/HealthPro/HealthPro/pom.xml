@@ -8,44 +8,38 @@
 <dependency>
          <groupId>com.ayush</groupId>
          <artifactId>Cal</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.0</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\Cal.jar</systemPath>
       </dependency>
       <dependency>
          <groupId>com.sun</groupId>
          <artifactId>javax.servlet.jsp.jstl</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.1.2</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\jstl.jar</systemPath>
       </dependency>
       <dependency>
          <groupId>com.sun</groupId>
          <artifactId>jstl-api-impl</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.2.0</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\jstl-impl.jar</systemPath>
       </dependency>
       <dependency>
          <groupId>org.apache</groupId>
          <artifactId>org.apache.taglibs.standard</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.0.6</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\jstl-standard.jar</systemPath>
       </dependency>
       <dependency>
          <groupId>com.ayush</groupId>
          <artifactId>RecommendationDiet</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.0.0</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\RecommendationDiet.jar</systemPath>
       </dependency>
       <dependency>
          <groupId>com.ayush</groupId>
          <artifactId>RecommendationExercise</artifactId>
-         <scope>system</scope>
+         <scope>provided</scope>
          <version>1.0.0</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\RecommendationExercise.jar</systemPath>
       </dependency>
        <dependency>
          <groupId>javax.servlet</groupId>
