@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <dependencies>
-<dependency>
+        <dendency>
          <groupId>com.ayush</groupId>
          <artifactId>Cal</artifactId>
          <scope>provided</scope>
